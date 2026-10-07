@@ -1,0 +1,3 @@
+image,lba,filesystem_type,data_unit,unit_kind,ifind_identifiers,status
+before,8193,FAT32,8193,volume_sector,6,associated
+after,8193,FAT32,8193,volume_sector,6,associated

@@ -1,0 +1,102 @@
+[
+  {
+    "argv": [
+      "fsstat.exe",
+      "-i",
+      "raw",
+      "-b",
+      "512",
+      "-o",
+      "0",
+      "-V",
+      "usb1_raw_pre.001"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "fsstat.exe",
+      "-i",
+      "raw",
+      "-b",
+      "512",
+      "-o",
+      "0",
+      "usb1_raw_pre.001"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "ifind.exe",
+      "-i",
+      "raw",
+      "-b",
+      "512",
+      "-o",
+      "0",
+      "-a",
+      "-d",
+      "8193",
+      "usb1_raw_pre.001"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "istat.exe",
+      "-i",
+      "raw",
+      "-b",
+      "512",
+      "-o",
+      "0",
+      "usb1_raw_pre.001",
+      "6"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "fsstat.exe",
+      "-i",
+      "raw",
+      "-b",
+      "512",
+      "-o",
+      "0",
+      "usb1_raw_post.001"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "ifind.exe",
+      "-i",
+      "raw",
+      "-b",
+      "512",
+      "-o",
+      "0",
+      "-a",
+      "-d",
+      "8193",
+      "usb1_raw_post.001"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "istat.exe",
+      "-i",
+      "raw",
+      "-b",
+      "512",
+      "-o",
+      "0",
+      "usb1_raw_post.001",
+      "6"
+    ],
+    "returncode": 0
+  }
+]

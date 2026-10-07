@@ -1,0 +1,13 @@
+Directory Entry: 6
+Allocated
+File Attributes: Directory, Hidden, System
+Size: 512
+Name: SYSTEM~1
+
+Directory Entry Times:
+Written:	2025-04-16 14:11:52 (Central Daylight Time)
+Accessed:	2025-04-16 00:00:00 (Central Daylight Time)
+Created:	2025-04-16 14:11:51 (Central Daylight Time)
+
+Sectors:
+8193 

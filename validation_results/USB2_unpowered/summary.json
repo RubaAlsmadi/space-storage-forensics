@@ -1,0 +1,33 @@
+{
+  "tool": "TraceDiff",
+  "version": "1.0.0",
+  "created_utc": "2026-10-07T16:24:13.363011+00:00",
+  "before": "usb2_before.001",
+  "after": "usb2_after.001",
+  "bytes_compared": 124780544,
+  "sector_size": 512,
+  "sectors_compared": 243712,
+  "final_partial_sector_bytes": 0,
+  "complete": true,
+  "byte_identical": true,
+  "hashes": {
+    "before": {
+      "md5": "718d2501bef20c705fe5bd14f80ba921",
+      "sha1": "0ab0dfe40c59f11c29500324651af83fa78b7da9",
+      "sha256": "dda71a889b4bd438a26b7a3bd47d70e4eac972cbe7df0835cc2b3377c236193c"
+    },
+    "after": {
+      "md5": "718d2501bef20c705fe5bd14f80ba921",
+      "sha1": "0ab0dfe40c59f11c29500324651af83fa78b7da9",
+      "sha256": "dda71a889b4bd438a26b7a3bd47d70e4eac972cbe7df0835cc2b3377c236193c"
+    }
+  },
+  "differing_sectors": 0,
+  "differing_bytes": 0,
+  "differing_bits": 0,
+  "contiguous_ranges": 0,
+  "status": "complete",
+  "argv": [
+    ".\\tracediff.py"
+  ]
+}

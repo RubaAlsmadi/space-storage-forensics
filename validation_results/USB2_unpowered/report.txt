@@ -1,0 +1,46 @@
+TRACEDIFF COMPARISON REPORT
+===========================
+Tool version : 1.0.0
+Status       : complete
+Created (UTC): 2026-10-07T16:24:13.363011+00:00
+Before image : usb2_before.001
+After image  : usb2_after.001
+
+1. IMAGE-LEVEL RESULT
+---------------------
+Bytes compared   : 124,780,544
+Sector size      : 512 bytes   (sectors compared: 243,712)
+Hashes:
+  MD5     before: 718d2501bef20c705fe5bd14f80ba921
+          after : 718d2501bef20c705fe5bd14f80ba921
+          match : YES
+  SHA-1   before: 0ab0dfe40c59f11c29500324651af83fa78b7da9
+          after : 0ab0dfe40c59f11c29500324651af83fa78b7da9
+          match : YES
+  SHA-256 before: dda71a889b4bd438a26b7a3bd47d70e4eac972cbe7df0835cc2b3377c236193c
+          after : dda71a889b4bd438a26b7a3bd47d70e4eac972cbe7df0835cc2b3377c236193c
+          match : YES
+Verdict: The images are byte-for-byte identical.
+
+2. WHERE AND WHAT CHANGED
+------------------------
+Differing sectors : 0
+Contiguous ranges : 0
+Differing bytes   : 0
+Differing bits    : 0
+
+3. FILESYSTEM MAPPING
+---------------------
+Status: not requested
+
+4. SELECTED FILE STREAMS
+------------------------
+not requested
+
+SCOPE NOTES
+-----------
+* Offsets and LBAs are zero-based. Ranges are inclusive.
+* Associations locate differences. They do not identify their cause and do not decode metadata fields.
+* Stream results apply only to the selected streams. Unexamined content is not verified.
+* Hashes show whether the images differ. The exact comparison is what localizes the differences.
+* Files: summary.json, sectors.csv, ranges.csv, bytes.csv, filesystem.csv, streams.json, tsk/ (when requested).

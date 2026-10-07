@@ -1,0 +1,36 @@
+{
+  "tool": "TraceDiff",
+  "version": "1.0.0",
+  "created_utc": "2026-10-07T15:06:02.284206+00:00",
+  "before": "usb1_raw_pre.001",
+  "after": "usb1_raw_post.001",
+  "bytes_compared": 124780544,
+  "sector_size": 512,
+  "sectors_compared": 243712,
+  "final_partial_sector_bytes": 0,
+  "complete": true,
+  "byte_identical": false,
+  "hashes": {
+    "before": {
+      "md5": "99836b502b6fd15df85015f8f6e859f6",
+      "sha1": "c7809a3b9e7ef2eb6f8b7a069f0ecef7d3cdc067",
+      "sha256": "9161749aa4e276d142993f2f669143080fce757d2950f5de00bcfd89594bf123"
+    },
+    "after": {
+      "md5": "414e979e5b158586ea414bcbd5287781",
+      "sha1": "6a64fd6f014b7574cb7e3b90bf6c43a44543c884",
+      "sha256": "b8144afc5ba528ee166faa7371848395b3d65085629415eadc04b3db1dd1e691"
+    }
+  },
+  "differing_sectors": 1,
+  "differing_bytes": 2,
+  "differing_bits": 10,
+  "contiguous_ranges": 1,
+  "status": "complete",
+  "argv": [
+    ".\\tracediff.py"
+  ],
+  "partition_offset": 0,
+  "tsk_version": "The Sleuth Kit ver 4.15.0",
+  "filesystem_status": "completed"
+}

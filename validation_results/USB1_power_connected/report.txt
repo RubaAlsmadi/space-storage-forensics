@@ -1,0 +1,65 @@
+TRACEDIFF COMPARISON REPORT
+===========================
+Tool version : 1.0.0
+Status       : complete
+Created (UTC): 2026-10-07T15:06:02.284206+00:00
+Before image : usb1_raw_pre.001
+After image  : usb1_raw_post.001
+
+1. IMAGE-LEVEL RESULT
+---------------------
+Bytes compared   : 124,780,544
+Sector size      : 512 bytes   (sectors compared: 243,712)
+Hashes:
+  MD5     before: 99836b502b6fd15df85015f8f6e859f6
+          after : 414e979e5b158586ea414bcbd5287781
+          match : NO
+  SHA-1   before: c7809a3b9e7ef2eb6f8b7a069f0ecef7d3cdc067
+          after : 6a64fd6f014b7574cb7e3b90bf6c43a44543c884
+          match : NO
+  SHA-256 before: 9161749aa4e276d142993f2f669143080fce757d2950f5de00bcfd89594bf123
+          after : b8144afc5ba528ee166faa7371848395b3d65085629415eadc04b3db1dd1e691
+          match : NO
+Verdict: The images DIFFER. Sections 2 to 4 show where and what.
+
+2. WHERE AND WHAT CHANGED
+------------------------
+Differing sectors : 1
+Contiguous ranges : 1
+Differing bytes   : 2
+Differing bits    : 10
+
+Differing sector ranges (zero-based LBA, inclusive):
+  start_lba  end_lba  sectors
+  ---------  -------  -------
+  8193       8193     1
+
+Changed bytes (bit positions count from 0 = least significant):
+  offset      lba   in_sector  before  after  xor   bits  bit_positions
+  ----------  ----  ---------  ------  -----  ----  ----  -------------
+  0x00400292  8193  146        0x98    0xA6   0x3E  5     1;2;3;4;5
+  0x004002F2  8193  242        0x98    0xA6   0x3E  5     1;2;3;4;5
+
+3. FILESYSTEM MAPPING
+---------------------
+Status: completed
+Differing sectors grouped by Sleuth Kit identifier. Identifiers should agree between
+the before and after images. Read the raw istat files in tsk/ to interpret them.
+  image   identifier / status  sectors  lba_span  filesystem (unit)
+  ------  -------------------  -------  --------  ---------------------
+  after   6                    1        8193      FAT32 (volume_sector)
+  before  6                    1        8193      FAT32 (volume_sector)
+'unresolved' means TSK found no owner. It is not evidence of corruption or of free space.
+'before_selected_partition' means the sector lies outside the selected partition.
+
+4. SELECTED FILE STREAMS
+------------------------
+not requested
+
+SCOPE NOTES
+-----------
+* Offsets and LBAs are zero-based. Ranges are inclusive.
+* Associations locate differences. They do not identify their cause and do not decode metadata fields.
+* Stream results apply only to the selected streams. Unexamined content is not verified.
+* Hashes show whether the images differ. The exact comparison is what localizes the differences.
+* Files: summary.json, sectors.csv, ranges.csv, bytes.csv, filesystem.csv, streams.json, tsk/ (when requested).
