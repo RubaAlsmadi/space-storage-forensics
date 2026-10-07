@@ -187,3 +187,7 @@ Command logs support inspection and repeatability. They do not independently est
 | Input changes during comparison | Preserve stable inputs and rerun into a new output directory |
 
 Successful comparisons return exit code `0`; handled comparison failures return `2`. Read `report.txt` and `summary.json`, when available, to distinguish complete results from failed runs. Argument validation can fail before a results directory is created.
+
+## Licensing
+
+The original TraceDiff software and its associated documentation are licensed under the [MIT License](LICENSE), copyright (c) 2026 Ruba Alsmadi. Third-party datasets and dependencies retain their respective licenses and copyright notices; the MIT license does not grant rights to those materials. No ownership of third-party materials is claimed.
